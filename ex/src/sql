@@ -1,0 +1,14 @@
+create table user2(
+    id serial PRIMARY KEY,
+    name VARCHAR(50) not null,
+    gender VARCHAR(50) not null,
+    date_of_birth int not null
+)
+
+create table logs(
+    id serial PRIMARY KEY,
+    name VARCHAR(50) not null,
+    gender VARCHAR(50) not null,
+    date_of_birth int not null,
+    created_date timestamp not null
+)
